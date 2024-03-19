@@ -1,0 +1,2 @@
+$execute store result score #ID$(playerid) ice_pid.players run effect give @a[scores={ice_pid.players=$(playerid)}] minecraft:unluck 1 0 true
+$execute if score #ID$(playerid) ice_pid.players matches 2.. as @a[scores={ice_pid.players=$(playerid)}] run function ice_pid:pid/id_reset_self

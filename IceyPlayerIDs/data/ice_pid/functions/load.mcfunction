@@ -1,0 +1,1 @@
+scoreboard objectives add ice_pid.id dummy
