@@ -2,7 +2,7 @@
 #ID Check
 function ice_pid:pid/id_check with storage minecraft:ice_pid.macro
 #Give ID if free
-$execute unless score #ID$(playerid) ice_pid.id matches 1.. run function ice_pid:pid/id_give with storage minecraft:ice_pid.macro
+$execute unless score #ID$(playerid) ice_pid.id matches 1.. run function ice_pid:pid/id_give_check with storage minecraft:ice_pid.macro
 
 ##Loop until player is assigned ID
 execute store result storage minecraft:ice_pid.macro playerid int 1 run scoreboard players add #ID ice_pid.id 1
