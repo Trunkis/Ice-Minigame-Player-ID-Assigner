@@ -4,4 +4,4 @@ execute store result score @s ice_pid.id run data get storage minecraft:ice_pid.
 function ice_pid:pid/id_check
 
 ##If all goes well.
-function ice_pid:pid/id_give with storage minecraft:zsc.macro
+function ice_pid:pid/id_give with storage minecraft:ice_pid.macro
